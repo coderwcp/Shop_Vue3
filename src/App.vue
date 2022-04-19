@@ -1,17 +1,16 @@
 <template>
-  <div></div>
+  <router-view />
+  <main-tab-bar />
 </template>
 
 <script>
+import MainTabBar from './components/MainTabBar'
 export default {
-
+  name: 'App',
+  components: { MainTabBar }
 }
 </script>
 
 <style>
-  div{
-    width: 375px;
-    height: 375px;
-    background-color: var(--color-tint);
-  }
+
 </style>

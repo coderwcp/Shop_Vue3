@@ -1,4 +1,5 @@
 @import "normalize.css";
+@import "../font/iconfont.css";
 
 /*:root -> 获取根元素html*/
 :root {
